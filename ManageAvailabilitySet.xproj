@@ -7,7 +7,7 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>f9899e51-a9cc-4500-808b-70173ab5d76a</ProjectGuid>
+    <ProjectGuid>31ef195a-b688-440a-9592-87b5a78a088c</ProjectGuid>
     <RootNamespace>ManageAvailabilitySet</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
