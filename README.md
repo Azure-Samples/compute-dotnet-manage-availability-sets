@@ -6,14 +6,14 @@ author: selvasingh
 
 #Getting Started with Compute - Manage Availability Set - in .Net #
 
-      Azure Compute sample for managing availability sets -
-       - Create an availability set
-       - Create a VM in a new availability set
-       - Create another VM in the same availability set
-       - Update the availability set
-       - Create another availability set
-       - List availability sets
-       - Delete an availability set.
+          Azure Compute sample for managing availability sets -
+           - Create an availability set
+           - Create a VM in a new availability set
+           - Create another VM in the same availability set
+           - Update the availability set
+           - Create another availability set
+           - List availability sets
+           - Delete an availability set.
 
 
 ## Running this Sample ##
