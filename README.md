@@ -4,7 +4,7 @@ platforms: .Net
 author: selvasingh
 ---
 
-#Getting Started with Compute - Manage Availability Set - in .Net #
+# Getting Started with Compute - Manage Availability Set - in .Net #
 
           Azure Compute sample for managing availability sets -
            - Create an availability set

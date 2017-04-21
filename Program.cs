@@ -4,8 +4,8 @@
 using Microsoft.Azure.Management.Compute.Fluent;
 using Microsoft.Azure.Management.Compute.Fluent.Models;
 using Microsoft.Azure.Management.Fluent;
-using Microsoft.Azure.Management.Resource.Fluent;
-using Microsoft.Azure.Management.Resource.Fluent.Core;
+using Microsoft.Azure.Management.ResourceManager.Fluent;
+using Microsoft.Azure.Management.ResourceManager.Fluent.Core;
 using Microsoft.Azure.Management.Samples.Common;
 using System;
 
@@ -72,8 +72,8 @@ namespace ManageAvailabilitySet
                         .WithRegion(Region.USEast)
                         .WithExistingResourceGroup(rgName)
                         .WithNewPrimaryNetwork(network)
-                        .WithPrimaryPrivateIpAddressDynamic()
-                        .WithoutPrimaryPublicIpAddress()
+                        .WithPrimaryPrivateIPAddressDynamic()
+                        .WithoutPrimaryPublicIPAddress()
                         .WithPopularWindowsImage(KnownWindowsVirtualMachineImage.WindowsServer2012R2Datacenter)
                         .WithAdminUsername(UserName)
                         .WithAdminPassword(Password)
@@ -93,8 +93,8 @@ namespace ManageAvailabilitySet
                         .WithRegion(Region.USEast)
                         .WithExistingResourceGroup(rgName)
                         .WithNewPrimaryNetwork(network)
-                        .WithPrimaryPrivateIpAddressDynamic()
-                        .WithoutPrimaryPublicIpAddress()
+                        .WithPrimaryPrivateIPAddressDynamic()
+                        .WithoutPrimaryPublicIPAddress()
                         .WithPopularLinuxImage(KnownLinuxVirtualMachineImage.UbuntuServer16_04_Lts)
                         .WithRootUsername(UserName)
                         .WithRootPassword(Password)
@@ -136,7 +136,7 @@ namespace ManageAvailabilitySet
 
                 Utilities.Log("Printing list of availability sets  =======");
 
-                foreach (var availabilitySet in azure.AvailabilitySets.ListByGroup(resourceGroupName))
+                foreach (var availabilitySet in azure.AvailabilitySets.ListByResourceGroup(resourceGroupName))
                 {
                     Utilities.PrintAvailabilitySet(availabilitySet);
                 }
@@ -175,7 +175,7 @@ namespace ManageAvailabilitySet
 
                 var azure = Azure
                     .Configure()
-                    .WithLogLevel(HttpLoggingDelegatingHandler.Level.BASIC)
+                    .WithLogLevel(HttpLoggingDelegatingHandler.Level.Basic)
                     .Authenticate(credentials)
                     .WithDefaultSubscription();
 
