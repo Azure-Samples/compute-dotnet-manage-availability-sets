@@ -1,4 +1,0 @@
-C:\Sources\dotnet-samples\compute-dotnet-manage-availability-sets\bin\Debug\net452\ManageAvailabilitySet.runtimeconfig.json
-C:\Sources\dotnet-samples\compute-dotnet-manage-availability-sets\bin\Debug\net452\ManageAvailabilitySet.runtimeconfig.dev.json
-C:\Sources\dotnet-samples\compute-dotnet-manage-availability-sets\obj\Debug\net452\ManageAvailabilitySet.csproj.ManageAvailabilitySet.exe.config
-C:\Sources\dotnet-samples\compute-dotnet-manage-availability-sets\obj\Debug\net452\ManageAvailabilitySet.csproj.CoreCompileInputs.cache

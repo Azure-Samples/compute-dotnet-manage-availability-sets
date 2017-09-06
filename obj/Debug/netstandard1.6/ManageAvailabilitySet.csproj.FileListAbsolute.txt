@@ -1,2 +1,0 @@
-C:\Sources\dotnet-samples\compute-dotnet-manage-availability-sets\bin\Debug\netstandard1.6\ManageAvailabilitySet.deps.json
-C:\Sources\dotnet-samples\compute-dotnet-manage-availability-sets\obj\Debug\netstandard1.6\ManageAvailabilitySet.csproj.CoreCompileInputs.cache
