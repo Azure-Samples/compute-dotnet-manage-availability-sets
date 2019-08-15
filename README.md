@@ -4,21 +4,21 @@ languages:
 - csharp
 products:
 - azure
-services: Compute
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Compute
+- platforms: dotnet
 ---
 
 # Getting started on managing availability sets in C# #
 
-          Azure Compute sample for managing availability sets -
-           - Create an availability set
-           - Create a VM in a new availability set
-           - Create another VM in the same availability set
-           - Update the availability set
-           - Create another availability set
-           - List availability sets
-           - Delete an availability set.
+ Azure Compute sample for managing availability sets -
+  - Create an availability set
+  - Create a VM in a new availability set
+  - Create another VM in the same availability set
+  - Update the availability set
+  - Create another availability set
+  - List availability sets
+  - Delete an availability set.
 
 
 ## Running this Sample ##
