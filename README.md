@@ -7,6 +7,7 @@ products:
 extensions:
 - services: Compute
 - platforms: dotnet
+description: "Azure Compute sample for managing availability sets."
 ---
 
 # Getting started on managing availability sets in C# #
