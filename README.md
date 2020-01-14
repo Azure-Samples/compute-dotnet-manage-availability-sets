@@ -7,10 +7,9 @@ products:
 extensions:
 - services: Compute
 - platforms: dotnet
-description: "Azure Compute sample for managing availability sets."
 ---
 
-# Getting started on managing availability sets in C#
+# Getting started on managing availability sets in C# #
 
  Azure Compute sample for managing availability sets -
   - Create an availability set
@@ -28,15 +27,13 @@ To run this sample:
 
 Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-net/blob/master/AUTH.md).
 
-```bash
-git clone https://github.com/Azure-Samples/compute-dotnet-manage-availability-sets.git
+    git clone https://github.com/Azure-Samples/compute-dotnet-manage-availability-sets.git
 
-cd compute-dotnet-manage-availability-sets
+    cd compute-dotnet-manage-availability-sets
 
-dotnet build
+    dotnet build
 
-bin\Debug\net452\ManageAvailabilitySet.exe
-```
+    bin\Debug\net452\ManageAvailabilitySet.exe
 
 ## More information ##
 
